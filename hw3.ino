@@ -232,6 +232,7 @@ void loop()
       delay(DELAY_EACH_DEGREE); // waits 15ms for the servo to reach the position
 
       IR_VAL = digitalRead(IR_DATA_PIN);
+      degrees_state[position_in_deg] = IR_VAL == HIGH;
 
       if (IR_VAL == LOW && ir_flag == 0)
       {
@@ -249,5 +250,8 @@ void loop()
         ir_flag = 0;
       }
     }
+
+    lcd.clear();
+    lcd.print("Scanning... ");
   }
 }
