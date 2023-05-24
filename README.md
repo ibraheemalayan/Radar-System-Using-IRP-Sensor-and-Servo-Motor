@@ -19,23 +19,31 @@ Use an IR sensor (keyes IR) with a servo motor, the sensor is attached to the mo
 
 ## Circuit Diagram
 
-![Circuit Diagram](./assets/schematics.png) # TODO
+![Circuit Diagram](./assets/schematics.png)
 
 ## Assembled Circuit
 
 <p float="left">
-  <img src="./assets/circuit_1.jpeg" width="300" /> # TODO
-  <img src="./assets/circuit_2.jpeg" width="300" /> # TODO 
-  <img src="./assets/circuit_3.jpeg" width="300" /> # TODO
+  <img src="./assets/circuit_1.jpg" width="280" />
+  <img src="./assets/circuit_2.jpg" width="280" /> 
+  <img src="./assets/circuit_3.jpg" width="280" />
 </p>
 
-          
 
 ## Project Demo
 
-![Project Demo](https://cdn.loom.com/sessions/thumbnails/c36953c4ccf54f7eb345afdf09b8bf03-with-play.gif)    
-[Watch Video](https://www.loom.com/share/c36953c4ccf54f7eb345afdf09b8bf03)
+<a href="https://www.loom.com/share/7a616d53e18444ff8ba3ff9f494f13c0">
+    <p>Watch Demo Video</p>
+    <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/7a616d53e18444ff8ba3ff9f494f13c0-with-play.gif">
+</a>
 
-## Code
+## IR / Servo Simulation
 
-[hw3.ino](hw3.ino)
+<a href="https://www.loom.com/share/158c7952658f4c309b3a688b67f5d1ce">
+    <p>Protos IR/Servo Simulation - Watch Video</p>
+    <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/158c7952658f4c309b3a688b67f5d1ce-with-play.gif">
+  </a>
+
+## Source Code
+
+#### [hw3.ino](hw3.ino)
